@@ -77,12 +77,97 @@
 
         //resultado da batalha das cartas
         printf("resultado da batalha das cartas 1 e 2\n");
-        printf("população da cidade 1: %d X %d :população da cidade 2\n", populacao1 > populacao2, populacao2 > populacao1);
-        printf("area da cidade 1: %d X %d :area da cidade 2\n", area1 > area2, area2 > area1);
-        printf("o PIB da cidade 1: %d X %d :o PIB da cidade 2\n", PIB1 > PIB2, PIB2 > PIB1);
-        printf("a densidade populacional 1: %d X %d :a densidade populacional 2\n", densidadepop1 > densidadepop2, densidadepop2 > densidadepop1);
-        printf("o PIB per cap 1: %d X %d :o PIB per cap 2\n", PIBpercap1 > PIBpercap2, PIBpercap2 > PIBpercap1);
-        printf("super poder 1: %d X %d :super poder 2\n", superpoder1 > superpoder2, superpoder2 > superpoder1);
 
+        printf("população da cidade 1: %d X %d :população da cidade 2\n", populacao1 > populacao2, populacao2 > populacao1);
+        
+        if (populacao1 > populacao2)
+        {
+            printf("carta 1 venceu\n");
+
+        }else if (populacao1 < populacao2)
+        {
+            printf("carta 2 venceu\n");
+
+        }else        
+        {
+            printf("empate\n");
+        }
+        
+        printf("area da cidade 1: %d X %d :area da cidade 2\n", area1 > area2, area2 > area1);
+        
+        if (area1 > area2)
+        {
+            printf("carta 1 venceu\n");
+
+        }else if (area1 < area2)
+        {
+            printf("carta 2 venceu\n");
+            
+        }else        
+        {
+            printf("empate\n");
+        }
+        
+        printf("o PIB da cidade 1: %d X %d :o PIB da cidade 2\n", PIB1 > PIB2, PIB2 > PIB1);
+                
+        if (PIB1 > PIB2)
+        {
+            printf("carta 1 venceu\n");
+
+        }else if (PIB1 < PIB2)
+        {
+            printf("carta 2 venceu\n");
+            
+        }else        
+        {
+            printf("empate\n");
+        }
+        
+        printf("a densidade populacional 1: %d X %d :a densidade populacional 2\n", densidadepop1 < densidadepop2, densidadepop2 < densidadepop1);
+                
+        if (densidadepop1 < densidadepop2)
+        {
+            printf("carta 1 venceu\n");
+
+        }else if (densidadepop1 > densidadepop2)
+        {
+            printf("carta 2 venceu\n");
+            
+        }else        
+        {
+            printf("empate\n");
+        }
+        
+        printf("o PIB per cap 1: %d X %d :o PIB per cap 2\n", PIBpercap1 > PIBpercap2, PIBpercap2 > PIBpercap1);
+                
+        if (PIBpercap1 > PIBpercap2)
+        {
+            printf("carta 1 venceu\n");
+
+        }else if (PIBpercap1 < PIBpercap2)
+        {
+            printf("carta 2 venceu\n");
+            
+        }else        
+        {
+            printf("empate\n");
+        }
+        
+        printf("super poder 1: %d X %d :super poder 2\n", superpoder1 > superpoder2, superpoder2 > superpoder1);
+                
+        if (superpoder1 > superpoder2)
+        {
+            printf("carta 1 venceu\n");
+
+        }else if (superpoder1 < superpoder2)
+        {
+            printf("carta 2 venceu\n");
+            
+        }else        
+        {
+            printf("empate\n");
+        }
+        
+        
         return 0;
     }
