@@ -187,8 +187,6 @@
                 break;
             }
 
-            while (escolha12 == escolha11)
-            {
             printf("jogador 1 escolha outro atributo\n");
             printf("1. populacao\n");
             printf("2. area\n");
@@ -282,10 +280,8 @@
             default:
                 printf("opcao invalida\n");
                 break;
-            }}
-
-            while (escolha13 == escolha12 || escolha13 == escolha11)
-            {            
+            }
+            
             printf("jogador 1 escolha o ultimo atributo\n");
             printf("1. populacao\n");
             printf("2. area\n");
@@ -379,7 +375,7 @@
             default:
                 printf("opcao invalida\n");
                 break;
-            }}
+            }
 
             printf("jogador 2 escolha um atributo\n");
             printf("1. populacao\n");
@@ -476,8 +472,6 @@
                 break;
             }
             
-            while (escolha22 == escolha21)
-            {
             printf("jogador 2 escolha outro atributo\n");
             printf("1. populacao\n");
             printf("2. area\n");
@@ -571,10 +565,8 @@
             default:
                 printf("opcao invalida\n");
                 break;
-            }}  
+            }  
 
-            while (escolha23 == escolha21 || escolha23 == escolha22)
-            {
             printf("jogador 2 escolha o ultimo atributo\n");
             printf("1. populacao\n");
             printf("2. area\n");
@@ -668,7 +660,7 @@
             default:
                 printf("opcao invalida\n");
                 break;
-            }}
+            }
             resultado = (vitorias1 > vitorias2) ? "jogador1" : "jogador2";
             printf("o vencedor e o %s\n", resultado);
             if (vitorias1 > vitorias2)
