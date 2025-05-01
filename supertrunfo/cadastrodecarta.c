@@ -17,7 +17,8 @@
         vitorias1 = 0;
         vitorias2 = 0;        
         int opcao;
-
+        while (opcao != 3)
+        {               
         printf("escolhas as opcoes\n");
         printf("1. iniciar jogo\n");
         printf("2. regras do jogo\n");
@@ -690,6 +691,7 @@
         default:
             printf("opcao invalida\n");
             break;
+        }
         }
 
 
