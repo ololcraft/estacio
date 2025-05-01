@@ -91,9 +91,7 @@
             printf("o nivel do super poder da carta 2 e: %.2f\n", superpoder2);
     
             //resultado da batalha das cartas
-
-            while (escolha11 > 6)
-            {            
+         
             printf("jogador 1 escolha um atributo\n");
             printf("1. populacao\n");
             printf("2. area\n");
@@ -187,9 +185,9 @@
             default:
                 printf("opcao invalida\n");
                 break;
-            }}
+            }
 
-            while (escolha12 == escolha11 || escolha12 > 6)
+            while (escolha12 == escolha11)
             {
             printf("jogador 1 escolha outro atributo\n");
             printf("1. populacao\n");
@@ -286,7 +284,7 @@
                 break;
             }}
 
-            while (escolha13 == escolha12 || escolha13 == escolha11 || escolha13 > 6)
+            while (escolha13 == escolha12 || escolha13 == escolha11)
             {            
             printf("jogador 1 escolha o ultimo atributo\n");
             printf("1. populacao\n");
@@ -383,8 +381,6 @@
                 break;
             }}
 
-            while (escolha21 > 6)
-            {
             printf("jogador 2 escolha um atributo\n");
             printf("1. populacao\n");
             printf("2. area\n");
@@ -478,9 +474,9 @@
             default:
                 printf("opcao invalida\n");
                 break;
-            }}
+            }
             
-            while (escolha22 == escolha21 || escolha22 > 6)
+            while (escolha22 == escolha21)
             {
             printf("jogador 2 escolha outro atributo\n");
             printf("1. populacao\n");
@@ -577,7 +573,7 @@
                 break;
             }}  
 
-            while (escolha23 == escolha21 || escolha23 == escolha22 || escolha23 > 6)
+            while (escolha23 == escolha21 || escolha23 == escolha22)
             {
             printf("jogador 2 escolha o ultimo atributo\n");
             printf("1. populacao\n");
