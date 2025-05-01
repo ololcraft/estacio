@@ -103,81 +103,81 @@
             {
             case 1:
                 if (populacao1 > populacao2)
-            {       escolha11 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (populacao1 < populacao2)
-            {       escolha11 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha11 = 0;
+                    
                     printf("empate");
             }
                 
                 break;
             case 2:
                 if (area1 > area2)
-            {       escolha11 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (area1 < area2)
-            {       escolha11 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha11 = 0;
+                    
                     printf("empate");
             }
             
                 break;
             case 3:
             if (PIB1 > PIB2)
-            {       escolha11 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (PIB1 < PIB2)
-            {       escolha11 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha11 = 0;
+                    
                     printf("empate");
             }
                 break;    
             case 4:
             if (densidadepop2 > densidadepop1)
-            {       escolha11 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (densidadepop2 < densidadepop1)
-            {       escolha11 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha11 = 0;
+                    
                     printf("empate");
             }
                 break;
             case 5:
             if (PIBpercap1 > PIBpercap2)
-            {       escolha11 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (PIBpercap1 < PIBpercap2)
-            {       escolha11 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha11 = 0;
+                    
                     printf("empate");
             }        
                 break;
             case 6:
             if (superpoder1 > superpoder2)
-            {       escolha11 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (superpoder1 < superpoder2)
-            {       escolha11 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha11 = 0;
+                    
                     printf("empate");
             }        
                 break;
@@ -197,81 +197,81 @@
             {
             case 1:
                 if (populacao1 > populacao2)
-            {       escolha12 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (populacao1 < populacao2)
-            {       escolha12 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha12 = 0;
+                    
                     printf("empate");
             }
                 
                 break;
             case 2:
                 if (area1 > area2)
-            {       escolha12 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (area1 < area2)
-            {       escolha12 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha12 = 0;
+                    
                     printf("empate");
             }
             
                 break;
             case 3:
             if (PIB1 > PIB2)
-            {       escolha12 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (PIB1 < PIB2)
-            {       escolha12 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha12 = 0;
+                    
                     printf("empate");
             }
                 break;    
             case 4:
             if (densidadepop2 > densidadepop1)
-            {       escolha12 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (densidadepop2 < densidadepop1)
-            {       escolha12 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha12 = 0;
+                    
                     printf("empate");
             }
                 break;
             case 5:
             if (PIBpercap1 > PIBpercap2)
-            {       escolha12 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (PIBpercap1 < PIBpercap2)
-            {       escolha12 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha12 = 0;
+                    
                     printf("empate");
             }        
                 break;
             case 6:
             if (superpoder1 > superpoder2)
-            {       escolha12 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (superpoder1 < superpoder2)
-            {       escolha12 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha12 = 0;
+                    
                     printf("empate");
             }        
                 break;
@@ -291,81 +291,81 @@
             {
             case 1:
                 if (populacao1 > populacao2)
-            {       escolha13 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (populacao1 < populacao2)
-            {       escolha13 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha13 = 0;
+                    
                     printf("empate");
             }
                 
                 break;
             case 2:
                 if (area1 > area2)
-            {       escolha13 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (area1 < area2)
-            {       escolha13 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha13 = 0;
+                    
                     printf("empate");
             }
             
                 break;
             case 3:
             if (PIB1 > PIB2)
-            {       escolha13 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (PIB1 < PIB2)
-            {       escolha13 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha13 = 0;
+                    
                     printf("empate");
             }
                 break;    
             case 4:
             if (densidadepop2 > densidadepop1)
-            {       escolha13 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (densidadepop2 < densidadepop1)
-            {       escolha13 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha13 = 0;
+                    
                     printf("empate");
             }
                 break;
             case 5:
             if (PIBpercap1 > PIBpercap2)
-            {       escolha13 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (PIBpercap1 < PIBpercap2)
-            {       escolha13 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha13 = 0;
+                    
                     printf("empate");
             }        
                 break;
             case 6:
             if (superpoder1 > superpoder2)
-            {       escolha13 = 1;
+            {       
                     vitorias1++;
                     printf("carta 1 venceu\n");
             }else if (superpoder1 < superpoder2)
-            {       escolha13 = 0;
+            {       
                     printf("carta 2 venceu\n");
             }else{
-                    escolha13 = 0;
+                    
                     printf("empate");
             }        
                 break;
@@ -385,81 +385,81 @@
             {
             case 1:
                 if (populacao1 > populacao2)
-            {       escolha21 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (populacao1 < populacao2)
-            {       escolha21 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha21 = 0;
+                    
                     printf("empate");
             }
                 
                 break;
             case 2:
                 if (area1 > area2)
-            {       escolha21 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (area1 < area2)
-            {       escolha21 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha21 = 0;
+                    
                     printf("empate");
             }
             
                 break;
             case 3:
             if (PIB1 > PIB2)
-            {       escolha21 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (PIB1 < PIB2)
-            {       escolha21 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha21 = 0;
+                    
                     printf("empate");
             }
                 break;    
             case 4:
             if (densidadepop2 > densidadepop1)
-            {       escolha21 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (densidadepop2 < densidadepop1)
-            {       escolha21 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha21 = 0;
+                    
                     printf("empate");
             }
                 break;
             case 5:
             if (PIBpercap1 > PIBpercap2)
-            {       escolha21 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (PIBpercap1 < PIBpercap2)
-            {       escolha21 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha21 = 0;
+                    
                     printf("empate");
             }        
                 break;
             case 6:
             if (superpoder1 > superpoder2)
-            {       escolha21 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (superpoder1 < superpoder2)
-            {       escolha21 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha21 = 0;
+                    
                     printf("empate");
             }        
                 break;
@@ -479,81 +479,81 @@
             {
             case 1:
                 if (populacao1 > populacao2)
-            {       escolha22 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (populacao1 < populacao2)
-            {       escolha22 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha22 = 0;
+                    
                     printf("empate");
             }
                 
                 break;
             case 2:
                 if (area1 > area2)
-            {       escolha22 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (area1 < area2)
-            {       escolha22 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha22 = 0;
+                    
                     printf("empate");
             }
             
                 break;
             case 3:
             if (PIB1 > PIB2)
-            {       escolha22 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (PIB1 < PIB2)
-            {       escolha22 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha22 = 0;
+                    
                     printf("empate");
             }
                 break;    
             case 4:
             if (densidadepop2 > densidadepop1)
-            {       escolha22 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (densidadepop2 < densidadepop1)
-            {       escolha22 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha22 = 0;
+                    
                     printf("empate");
             }
                 break;
             case 5:
             if (PIBpercap1 > PIBpercap2)
-            {       escolha22 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (PIBpercap1 < PIBpercap2)
-            {       escolha22 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha22 = 0;
+                    
                     printf("empate");
             }        
                 break;
             case 6:
             if (superpoder1 > superpoder2)
-            {       escolha22 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (superpoder1 < superpoder2)
-            {       escolha22 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha22 = 0;
+                    
                     printf("empate");
             }        
                 break;
@@ -573,81 +573,81 @@
             {
             case 1:
                 if (populacao1 > populacao2)
-            {       escolha23 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (populacao1 < populacao2)
-            {       escolha23 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha23 = 0;
+                    
                     printf("empate");
             }
                 
                 break;
             case 2:
                 if (area1 > area2)
-            {       escolha23 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (area1 < area2)
-            {       escolha23 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha23 = 0;
+                    
                     printf("empate");
             }
             
                 break;
             case 3:
             if (PIB1 > PIB2)
-            {       escolha23 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (PIB1 < PIB2)
-            {       escolha23 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha23 = 0;
+                    
                     printf("empate");
             }
                 break;    
             case 4:
             if (densidadepop2 > densidadepop1)
-            {       escolha23 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (densidadepop2 < densidadepop1)
-            {       escolha23 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha23 = 0;
+                    
                     printf("empate");
             }
                 break;
             case 5:
             if (PIBpercap1 > PIBpercap2)
-            {       escolha23 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (PIBpercap1 < PIBpercap2)
-            {       escolha23 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha23 = 0;
+                    
                     printf("empate");
             }        
                 break;
             case 6:
             if (superpoder1 > superpoder2)
-            {       escolha23 = 0;
+            {       
                     printf("carta 1 venceu\n");
             }else if (superpoder1 < superpoder2)
-            {       escolha23 = 1;
+            {       
                     vitorias2++;
                     printf("carta 2 venceu\n");
             }else{
-                    escolha23 = 0;
+                    
                     printf("empate");
             }        
                 break;
@@ -655,7 +655,7 @@
                 printf("opcao invalida\n");
                 break;
             }
-            resultado = ((escolha11 + escolha12 + escolha13) > (escolha21 + escolha22 + escolha23)) ? "jogador1" : "jogador2";
+            resultado = (vitorias1 > vitorias2) ? "jogador1" : "jogador2";
             printf("o vencedor e o %s\n", resultado);
             if (vitorias1 > vitorias2)
             {
