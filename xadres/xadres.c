@@ -3,10 +3,10 @@ int main(){
     int torre, bispo, rainha;
     int tx, ty, bx, by, rx, ry;
     int escolha;
-    while ((escolha >= 4) || (escolha <= 0) || (torre == 3) || (bispo == 5))
+    while ((escolha >= 4) || (escolha <= 0) || (torre == 3) || (bispo == 5) || (rainha == 3))
     {    
         printf("digite a peca que ira mover\n");
-        printf("1. torre\n2. bispo\n3.rainha\n");
+        printf("1. torre\n2. bispo\n3. rainha\n");
         scanf("%d", &escolha);
         switch (escolha){
             case 1:
@@ -98,7 +98,47 @@ int main(){
                 } while ((bispo <= 0) || (bispo > 5));
             break;
             case 3:
-            //rainha
+                do
+                {
+                    printf("escolha a direção que a rainha se movera\n");
+                    printf("1. reto\n2. diagonal\n3. voltar\n");
+                    scanf("%d", &rainha);
+                    switch (rainha)
+                    {
+                        case 1:
+                            do
+                            {                            
+                                printf("escolha os eixo que ira mover\n");
+                                printf("1. horizontal\n2. vertical\n3. voltar\n");
+                                scanf("%d", &rainha);
+                                switch (rainha)
+                                {
+                                case 1:
+                                    
+                                break;
+                                case 2:
+
+                                break;
+                                case 3:
+                                    printf("voltando...\n");
+                                break;
+                                default:
+                                    printf("opçao invalida\n");
+                                break;
+                                }
+                            } while (rainha <= 0 || rainha > 3);
+                        break;
+                        case 2:
+
+                        break;
+                        case 3:
+                        printf("voltando...\n");
+                        break;
+                        default:
+                        printf("opção invalida\n");
+                        break;
+                    }
+                } while ((rainha <= 0) ||(rainha > 3));
             break;    
             default:
             printf("opcao invalida\n");
